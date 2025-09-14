@@ -1,0 +1,16 @@
+def is a keyword to define function.
+function_name : name we give to the function
+parameters: inputs function can take
+return, sends back a result
+
+function is a reusable block of code that takes inputs performs a specific operatiions and return a output
+
+def function_name():
+    code
+     retun value(#optional)
+
+
+ def greet(name="friend"):
+    print(f"hello, {name}!")
+ greet("rajesh")
+ greet()
