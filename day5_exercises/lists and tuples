@@ -1,0 +1,50 @@
+list is an ordered collection of items([])
+items can be any data type(numbers, strings,..)
+lists are mutable-allowed change them after creating
+append-adds at the end of the list
+insert adds at the required index
+
+
+fruits=["mango","banana"]
+numbers=[1,2,3,4,5]
+mixed=[1,"mixed",3, True]
+print(fruits[0])
+
+adding:
+fruits.append("frape")
+fruits.insert(1,"grape")
+
+removing:
+fruits.remove("cherry") by value
+fruits.pop(2)  removing by index
+
+
+slicing: is nothing but sublists
+print(fruits[1:3]  elements from index 1 to 3
+print(fruits[:2]) first two elements
+print(fruits[-2:]) last two elements
+
+tuples are also ordered collection of items but, tuples are immutable
+defined using parenthesis
+()
+
+fruits=("mango","grape","banana")
+
+
+tuples are faster than lists (performance)
+no accidental changes
+can be used as dictionary keys(list no)
+
+concatenttin
+
+print(t1+t2)
+
+repetition:print(t*3)
+
+membership
+t = (10, 20, 30)
+print(20 in t)   # True
+print(40 in t)   # False
+
+print(fruits(::-1))
+start:end:step
