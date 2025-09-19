@@ -1,0 +1,18 @@
+dictionaries(dict)
+key-> value
+keys must be immutable like tuples, strings,int(unchangeable)
+values can be anything
+
+
+unordered collection of ordered items
+great for membership tests, de-duplication, and set algebra
+
+elements must be changeable
+
+
+{} is an empyt dict but not an empty set
+
+empty_set=set()
+
+to add in sets we use .add
+to remove items in swt we use .discard
